@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 
-const lines = fs.readFileSync(`./day1.txt`).toString().split("\n");
+const lines = fs.readFileSync(`./data.txt`).toString().split("\n");
 
 
 const emplyLineIndexesStart = [0]
